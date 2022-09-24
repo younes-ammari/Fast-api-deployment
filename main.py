@@ -45,5 +45,5 @@ def get_all(id:int):
 
     result = db.search(TinyQ.id == id)
 
-    return {'satate': 'Not Found' if len(result)==0 else 'Found', 'result':result}
+    return {'satate': 'Not Found ....' if len(result)==0 else 'Found ....', 'result':result}
 
