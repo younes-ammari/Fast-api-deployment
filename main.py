@@ -39,7 +39,7 @@ def get_all():
     return {"users"}
 
 
-@app.get("/id/{id}")
+@app.get("/id//{id}")
 def get_all(id:int):
     TinyQ = TinyQuery()
 
